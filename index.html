@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <!-- Link to CSS file for styling the app -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to JavaScript file, defer attribute to load after HTML parsing -->
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Todo App</h1>
+    <div class="wrapper">
+       <!-- Form for adding new todos -->
+      <form>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="write anything and hit enter to add"
+          autocomplete="off"
+        />
+         <!-- Button to add todo -->
+        <button id="add-button">ADD</button>
+      </form>
+       <!-- Unordered list where todos will be displayed -->
+      <ul id="todo-list">
+      </ul>
+    </div>
+  </body>
+</html>
